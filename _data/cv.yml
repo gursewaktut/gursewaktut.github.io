@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Gursewak Singh
     - name: Date of Birth
-      value: 14th March 1879
+      value: 
     - name: Languages
-      value: English, German
+      value: English, Punjabi, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: BSc
+      institution: Simon Fraser University, BC, Canada
+      year: 
       description:
         - Description 1.
         - Description 2.
