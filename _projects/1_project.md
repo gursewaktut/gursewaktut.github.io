@@ -1,81 +1,54 @@
 ---
 layout: page
 title: Atreus Keyboard
-description: a project with a background image
-img: assets/img/12.jpg
+description: column-staggered travel keyboard design
+img: assets/img/finished_build.jpeg
 importance: 1
-category: Fun
-related_publications: einstein1956investigations, einstein1950meaning
+category: fun
+related_publications: 
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Atreus is an ergonomic 40% mechanical keyboard. The design is available at [Atreus Keyboard](https://gitlab.com/technomancy/atreus) and it is entirely opensource. The original design uses Matias Quiet Click switches and Arduino Pro Micro for handwired build and A-star micro microcontroller for pcb build.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The firmware used for the original design is QMK. For my build, I have deviated slightly from this above design. For the microcontroller, I am using a raspberry pi pico which is just \$6 compared to \$20 for pro-micro. I am also using KMK firmware which is also opensource and it runs on circuit python which is used to write code for with Pi Pico.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Below is the list of parts I used:
+
+- [50 Matias Quiet Click Switches](https://matias.store/products/matias-quiet-click-switch-box-of-200)
+- [Full set of Matias Alps Keycaps](https://matias.store/products/keycap-set-white-blank)
+- [Raspberry pi pico from Canakit](https://www.canakit.com/raspberry-pi-pico-w.html)
+- 50 1N4148 diodes from ebay
+- [Case material and laser cutting from Laser Cutter Cafe, Vancouver](http://www.lasercuttercafe.com/)
+- USB micro cable, get anywhere
+- A soldering iron.
+
+The whole thing cost me around \$200. At the time of writing this post, the prices of the switches and keycaps seems to have increased by $20 each. But the switches and the keycaps can be replaced by cherry style switches and keycaps.
+The laser cutting cost me around \$55. The majority of the cost goes to switches, keycaps and case. The rest of the parts are relatively cheap.
+
+For soldering, you can get away with cheap soldering iron but it is recomended to get a soldering iron that can be temperature controlled.
+
+I put everything together using machined screws.
+
+
+The instructions for assembly, files for case and the QMK firmware can be found at the gitlab repository mentioned above. The layout for KMK firmware code that I used can be found at [Layout](https://github.com/gursewaktut/atreus_kmk).
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pi_pico_rot.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pi_pico_soldered.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/columns_rows.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/finished_build.jpeg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
