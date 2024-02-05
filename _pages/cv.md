@@ -4,8 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: 
-link: https://registry.jsonresume.org/gursewaktut
+cv_pdf: resume.pdf
 description:
 toc:
   sidebar: left
