@@ -18,7 +18,7 @@ Code Mentor AI: An Interactive Programming Learning Platform
 
 Code Mentor AI is a cutting-edge platform designed to revolutionize how we learn programming. Leveraging advanced APIs and a sophisticated tech stack, it offers an interactive and tailored learning experience. Features include support for multiple languages, real-time code evaluation, virtual tutors, and the ability to analyze code from digarams among other notable features. Our mission is to make programming education universally accessible and adaptable to each learner's unique style, bridging the gap between concept mastery and practical application.
 
-![Landing Page](assets/img/coding_pines.png "Code Mentor AI Landing Page")
+{% include figure.html path="assets/img/coding_pines.png" title="Landing page" class="img-fluid rounded z-depth-1" %}
 
 
 ## Technology Stack
