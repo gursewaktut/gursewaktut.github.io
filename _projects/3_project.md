@@ -8,9 +8,9 @@ importance: 2
 category: fun
 ---
 
-# TeamPines
+# Coding pines
 
-CMPT 276 Term project
+[Github link](https://github.com/gursewaktut/TeamPines.git)
 
 ## Project Objectives
 
@@ -25,8 +25,8 @@ Code Mentor AI is a cutting-edge platform designed to revolutionize how we learn
 
 - Frontend
 
- - React.js: Chosen for its component-based architecture, JSX syntax, and easy integration with other libraries.
- - Chakra UI: For its customizability, consistent design language, and seamless integration with React.
+    - React.js: Chosen for its component-based architecture, JSX syntax, and easy integration with other libraries.
+    - Chakra UI: For its customizability, consistent design language, and seamless integration with React.
 
 - Backend
 
