@@ -2,17 +2,59 @@
 layout: page
 title: Coding Pines
 description: an AI based code tutor project
-img: 
+img: assets/img/coding_pines.png
 redirect: 
 importance: 2
 category: fun
 ---
 
-This is the group project for CMPT 276 at SFU. We are a group of 4 people creating a code tutor app that uses AI to help users understand code. The main features of this project are:
+# TeamPines
 
-- Write, compile and execute code.
-- AI error explanation.
-- Personality selection for AI bot.
-- Questions related to programming.
-- Multiple language support.
-- Solutions to questions using AI.
+CMPT 276 Term project
+
+## Project Objectives
+
+Code Mentor AI: An Interactive Programming Learning Platform
+
+Code Mentor AI is a cutting-edge platform designed to revolutionize how we learn programming. Leveraging advanced APIs and a sophisticated tech stack, it offers an interactive and tailored learning experience. Features include support for multiple languages, real-time code evaluation, virtual tutors, and the ability to analyze code from digarams among other notable features. Our mission is to make programming education universally accessible and adaptable to each learner's unique style, bridging the gap between concept mastery and practical application.
+
+![Landing Page](./extra/Landing_Page.png "Code Mentor AI Landing Page")
+
+## Set Up Instructions
+
+Please follow the following steps to run the app on your local environment:
+
+## Technology Stack
+
+## Frontend
+
+ React.js: Chosen for its component-based architecture, JSX syntax, and easy integration with other libraries.
+ [ReactJS Tutorial](https://react.dev/learn)
+ [React with API Tutorial](https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/)
+ Chakra UI: For its customizability, consistent design language, and seamless integration with React.
+
+## Backend
+
+ Python: Primary language for backend to integrate with the Steamship API and other backend functionalities.
+
+## Testing
+
+ Jest: A JavaScript testing framework for unit testing React components.
+ 9 unit tests and 6 integration tests - all written in Jest
+ [Jest Tutorial](https://www.digitalocean.com/community/tutorials/how-to-test-a-react-app-with-jest-and-react-testing-library)
+
+## CI/CD
+
+ GitHub Actions: For its seamless integration with Git, easy configuration, and automation capabilities.
+ [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions)
+
+
+```
+git clone https://github.com/gursewaktut/TeamPines.git
+
+cd TeamPines
+
+npm install
+
+npm start
+```
