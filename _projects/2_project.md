@@ -4,7 +4,7 @@ title: Weather Calendar
 description: a scheduling app that uses weather api to show weather data.
 img: 
 importance: 3
-category: fun
+category: school
 giscus_comments: false #true
 ---
 
