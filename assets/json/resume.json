@@ -25,7 +25,7 @@
   "work": [
     {
       "name": "Speed Truck And Trailer Repair Ltd",
-      "position": "Commercial Mechanic",
+      "position": "Commercial Mechanic supervisor",
       "url": "https://speedrepair.com",
       "startDate": "2022-04-01",
       "endDate": "",
@@ -103,7 +103,8 @@
       "level": "Master",
       "keywords": [
         "Vim",
-        "LaTex"
+        "Tmux",
+        "Docker"
       ]
     },
     {
@@ -135,14 +136,14 @@
       "name": "Electronics",
       "keywords": [
         "Micro Controllers",
-        "Tiny Robots"
+        "Mechanical Keyboards"
       ]
     },
     {
       "name": "Reading",
       "keywords": [
         "Science Fiction",
-        "Fantasy",
+        "Magical Realism",
         "Memoir"
       ]
     }
@@ -157,7 +158,7 @@
       "summary": "Created a payment system for Transit for a software project at Douglas College using Java and Spring Boot.",
       "highlights": [
         "Login/SignUp/Logout functionality",
-        "Implemented SQL Database wrapper class to talk to database.",
+        "Implemented SQL Database wrapper class to interact with database.",
         "Implemented Basic CRUD operations for users to create, update or delete their accounts",
         "Used Git/GitHub to collaborate with other group members"
       ]
@@ -169,9 +170,9 @@
       "endDate": "2023-11-30",
       "summary": "Created a code learning site using react and consuming code excution api and steamship GPT4 api.",
       "highlights": [
-        "Implemented compile and execute code functions.",
-        "Ability to get AI explanation of code",
-        "Ability to chat with AI bot for understanding the code."
+        "Coded web editor for users to enter and test their code for solving coding problems.",
+        "Integrated Steamship API to check the validity of the submitted answers using AI models.",
+        "Embeded AI powered chat bot to help users tackle the problem by providing hints on how to solve it."
       ]
     }
   ]
