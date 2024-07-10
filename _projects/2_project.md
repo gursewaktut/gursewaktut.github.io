@@ -2,7 +2,7 @@
 layout: page
 title: Cyber Crime Data Valuation
 description: India's cyber crime data valuation using various methods.
-img: 
+img: assets/img/children.png
 importance: 3
 category: school
 giscus_comments:  false #true
