@@ -24,6 +24,17 @@
   },
   "work": [
     {
+      "name": "SAP Canada",
+      "position": "Technical support HANA DB",
+      "url": "www.sap.com",
+      "startDate": "2025-05-06",
+      "endDate": "",
+      "summary": "Help customer resolve technical issues",
+      "highlights": [
+        "Diagnose technical issues by analyzing trace files.", "Optimization of sql scripts."
+      ]
+    },
+    {
       "name": "Speed Truck And Trailer Repair Ltd",
       "position": "Commercial Mechanic supervisor",
       "url": "https://speedrepair.com",
